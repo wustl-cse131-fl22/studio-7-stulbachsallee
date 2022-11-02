@@ -49,6 +49,7 @@ public class Fraction {
 		if(commonDenom % totalNumer == 0) { //for proper fractions
 			gcd =  totalNumer; //numerator value is gcd
 			return simplify(commonDenom, totalNumer);
+			
 		}
 		
 		//...this part is unchanged from Studio 6
